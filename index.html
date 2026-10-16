@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تقارير إعلانات تيليجرام | زمرّدة</title>
+  <style>
+    body {
+      background-color: #0b1120;
+      color: #ffffff;
+      font-family: system-ui, -apple-system, sans-serif;
+      margin: 0;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+    }
+    .container {
+      width: 100%;
+      max-width: 420px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .card {
+      background-color: #111a2e;
+      border: 1.5px solid #0066ff;
+      box-shadow: 0 0 12px rgba(0, 102, 255, 0.35);
+      border-radius: 16px;
+      padding: 18px;
+      text-align: center;
+    }
+    .status-tag {
+      background: #3a1525;
+      color: #ff4d6d;
+      padding: 4px 14px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: inline-block;
+      margin-bottom: 12px;
+    }
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .grid-images {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+    .grid-images img {
+      width: 100%;
+      height: 95px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .description {
+      font-size: 14px;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+    .stat-label {
+      color: #94a3b8;
+      font-size: 14px;
+      margin-bottom: 6px;
+    }
+    .stat-number {
+      font-size: 34px;
+      font-weight: bold;
+      color: #ffffff;
+      margin: 5px 0;
+    }
+    .stat-sub {
+      color: #64748b;
+      font-size: 12px;
+    }
+    .btn {
+      background-color: rgba(0, 102, 255, 0.1);
+      border: 1.5px dashed #0066ff;
+      color: #ffffff;
+      padding: 14px;
+      border-radius: 12px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: bold;
+      text-decoration: none;
+      display: block;
+      box-sizing: border-box;
+    }
+    .footer {
+      font-size: 11px;
+      color: #64748b;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- كارت العرض والمنتجات -->
+  <div class="card">
+    <div class="status-tag">• متوقفة</div>
+    <div class="title">زمرّدة | إكسسوارات ومجوهرات</div>
+    
+    <div class="grid-images">
+      <img src="https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=300" alt="إكسسوار 1">
+      <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=300" alt="إكسسوار 2">
+      <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=300" alt="إكسسوار 3">
+    </div>
+
+    <div class="description">
+      أحدث تشكيلات الذهب الصيني والاستيل والاستانلس جملة وقطاعي بأعلى جودة وزركون مميز. تواصلوا معنا للطلبات والاستفسار! 💍✨
+    </div>
+  </div>
+
+  <!-- كارت المشاهدات -->
+  <div class="card">
+    <div class="stat-label">المشاهدات</div>
+    <div class="stat-number">50,000</div>
+    <div class="stat-sub">إجمالي مرات الظهور</div>
+  </div>
+
+  <!-- كارت CPM -->
+  <div class="card">
+    <div class="stat-label">CPM</div>
+    <div class="stat-number">0.37</div>
+    <div class="stat-sub">تكلفة الألف مشاهدة</div>
+  </div>
+
+  <!-- زر القناة -->
+  <div class="card">
+    <div class="stat-label" style="margin-bottom: 10px;">لينك القناة</div>
+    <a href="https://t.me/" class="btn">🔗 زيارة القناة</a>
+  </div>
+
+  <div class="footer">
+    النتائج يتم تحديثها تلقائياً • EL TAGER.Ads
+  </div>
+</div>
+
+</body>
+</html>
